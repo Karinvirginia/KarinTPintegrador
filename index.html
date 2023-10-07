@@ -3,36 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Universidad Nacional de Tucuman</title>
 
 </head>
-<body>
+<body style="background-color: khaki;">
     <header>
-        <h1>Bienvenidos a nuestra casa de estudios</h1>
-        <nav>
-            <ul>Inicio</ul>
-            <ul>Nosotros</ul>
-            <ul>Carreras</ul>
-            <ul>Alumnos</ul>
-            <ul>Docentes</ul>
-        </nav>
+        <h1 class="container-fluid border border-warning-subtle text-warning bg-dark" >Bienvenidos a nuestra casa de estudios</h1>
+        <nav class="navbar navbar-expand-sm bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">UNT</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Ingreso 2024</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Carreras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Estudiantes</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Docentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Institucional</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <section>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
+        <section class="d-flex justify-content-between">
+            <div class="card" style="width: 18rem;">
+                <img src="img/fdsfsdf.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate eius doloribus optio ratione voluptatibus doloremque perferendis quo nostrum enim vitae!</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/descarga (2).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cum molestiae dolore officia repellendus quidem ab, doloribus aliquam quam fugit..</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/unoooo.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cum molestiae dolore officia repellendus quidem ab, doloribus aliquam quam fugit..</p>
+                </div>
+              </div>
         </section>
         <section>
-
+            <div id="carouselExample" class="carousel slide" style="max-width: 800px; margin: 0 auto;">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/dfgdfgfg.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/dfsgsdfgdg.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/dsafsadf.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="ubicacion">
+            <div>
+                <h1>¿Cómo llegar?</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.112015762018!2d-65.21372642546025!3d-26.836389290017333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c79092d8783%3A0xb103eba49e886fc9!2sUniversidad%20Nacional%20de%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1696719504794!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
     </main>
     <footer>
-        
-
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="img/fghfghfgh.jpg" alt="Logo">
+            </div>
+            <div class="footer-info">
+                <p>2023 Universidad Nacional de Tucuman</p>
+                <p>Teléfono: (381) 456-7890</p>
+                <p>Email: info@universidadnacionaldetucuman.edu.ar</p>
+            </div>
+        </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
